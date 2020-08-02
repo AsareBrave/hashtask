@@ -38,6 +38,10 @@ class Password extends Hash
                 if (isset($options['numbers']) && isset($options['special_chars'])) {
                     $this->password = str_shuffle($this->generate_alphabets($this->no_of_str) . $this->generate_numbers($this->no_of_str) . $this->generate_special_characters($this->no_of_str));
                 }
+
+                if (!isset($options['numbers']) && !isset($options['special_chars'])) {
+                    $this->password = str_shuffle($this->generate_characters($this->no_of_str));
+                }
             }
 
             return $this->password;
