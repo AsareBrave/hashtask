@@ -4,6 +4,8 @@ namespace Hash;
 
 class Password
 {
+    public $generated_password = "";
+
     public function generatePassword($length = 9, $add_dashes = false, $available_sets = 'luds')
     {
         $sets = array();
@@ -39,6 +41,8 @@ class Password
             $password = substr($password, $dash_len);
         }
         $dash_str .= $password;
+
+        $this->generated_password = $dash_str;
         return $dash_str;
     }
 }
