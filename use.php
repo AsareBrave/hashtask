@@ -6,7 +6,7 @@ include_once './Hash/src//Hash.php';
 include_once './Hash/src/Password.php';
 
 $password = new Password();
-echo $password->generate_password(6, [
+echo $password->generateStrongPassword(6, [
     // 'numbers' => true,
     'special_chars' => true
 ]);
