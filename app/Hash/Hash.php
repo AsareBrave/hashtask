@@ -1,10 +1,10 @@
 <?php
 
-use Hash\Hash;
+namespace Hash;
 
-class Password extends Hash
+class Hash
 {
-    public function generateStrongPassword($length = 9, $add_dashes = false, $available_sets = 'luds')
+    public function generatePassword($length = 9, $add_dashes = false, $available_sets = 'luds')
     {
         $sets = array();
         if (strpos($available_sets, 'l') !== false)
