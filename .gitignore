@@ -1,4 +1,3 @@
 #ignore db config files
 db_config.php
 .gitignore
-app/
