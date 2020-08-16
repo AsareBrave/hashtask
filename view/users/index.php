@@ -3,7 +3,7 @@
 $generated_password;
 
 // loads necessary classes
-require_once '../app/config/autoload.php';
+require_once '../../app/config/autoload.php';
 
 if (isset($_POST['submit'])) {
     $password = new Hash\Password;
