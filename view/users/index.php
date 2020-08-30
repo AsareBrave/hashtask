@@ -1,6 +1,7 @@
 <?php
 require_once '../../model/Config.php';
 
+
 // loads necessary classes
 require_once '../../app/config/autoload.php';
 

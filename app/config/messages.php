@@ -7,6 +7,10 @@ $messages = [
         ],
         'error' => [
             'code' => 11,
+            'message' => 'This account does exist!'
+        ],
+        'invalid_password' => [
+            'code' => 13,
             'message' => 'Invalid Login details!'
         ]
     ]
