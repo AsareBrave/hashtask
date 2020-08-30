@@ -27,7 +27,7 @@
 
                     <!-- Logo -->
                     <div class="auth-brand text-center text-lg-left">
-                        <a href="index-2.html">
+                        <a href="#">
                             <span><img src="../assets/images/logo-light.png" alt="" height="18"></span>
                         </a>
                     </div>
@@ -88,7 +88,7 @@
 
     <!-- App js -->
     <!-- <script src="../assets/js/app.min.js"></script> -->
-    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery3.4.1.min.js"></script>
     <script src="../assets/js/parsley.js"></script>
     <script src="../assets/js/main.js"></script>
 </body>

@@ -1,9 +1,10 @@
 <?php
-
-$generated_password;
+require_once '../../model/Config.php';
 
 // loads necessary classes
 require_once '../../app/config/autoload.php';
+
+$generated_password;
 
 if (isset($_POST['submit'])) {
     $password = new Hash\Password;
