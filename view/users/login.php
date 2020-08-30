@@ -53,6 +53,8 @@
                                 <label class="custom-control-label" for="checkbox-signin">Remember me</label>
                             </div>
                         </div>
+                        <div class="alert alert-primary login-msg" role="alert" style="display: none;">
+                        </div>
                         <div class="form-group mb-0 text-center">
                             <button class="btn btn-primary btn-block" type="submit"><i class="mdi mdi-login" id="login-btn"></i> Log In </button>
                         </div>
